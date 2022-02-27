@@ -71,7 +71,7 @@ def search(request):
         vendor_item = {'online_partner': product.online_partner, 'price': str(product.price), 'link': product.link}
         vendors1 = [vendor_item]
         if len(groceries) > 0:
-            new_product = {'product': product, 'name': product.product_name, 'vendors': vendors1, 'image': product.image_url}
+            new_product = {'product': product, 'name': product.product_name, 'vendors': vendors1, 'image': groceries[0].image}
             productList.append(new_product)
         else:
             image1 = {"url": "/media/payless/images/no image.jpg"}
