@@ -15,8 +15,11 @@ class Product(models.Model):
     sub_category_2 = models.TextField(default='Fresh Vegetables')
     created_date = models.DateTimeField(auto_now=True)
     online_partner = models.TextField(default='jiomart')
+    city = models.TextField(default='Chennai')
+    image_url = models.URLField(default='/payless/images/no image.jpg')
 
 class Grocery_Headings(models.Model):
     id = models.TextField(primary_key=True)
     name = models.TextField(default='Onion')
     image = models.ImageField(upload_to='payless/images/',default='null')
+    category = models.TextField(default='Fresh Vegetables')

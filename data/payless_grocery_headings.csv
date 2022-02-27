@@ -1,0 +1,142 @@
+id,name,image,category
+1,Coconut,payless/images/Coconut.jpg,Fresh Vegetables
+2,Tomato,payless/images/Tomato.jpg,Fresh Vegetables
+3,Radish,payless/images/White Radish.jpg,Fresh Vegetables
+4,Beans,payless/images/Stringless Beans.jpg,Fresh Vegetables
+5,Cucumber,payless/images/Cucumber Regular.jpg,Fresh Vegetables
+6,Bottle Gourd,payless/images/Lauki (Bottle Gourd).jpg,Fresh Vegetables
+7,Carrot,payless/images/Carrot Orange.jpg,Fresh Vegetables
+8,Cauliflower,payless/images/Cauliflower.jpg,Fresh Vegetables
+9,amb,payless/images/Sweet Corn.jpg,Fresh Vegetables
+10,Cabbage,payless/images/Cabbage.jpg,Fresh Vegetables
+11,Onion,payless/images/Onion.jpg,Fresh Vegetables
+12,Potato,payless/images/Potato.jpg,Fresh Vegetables
+13,Green Capsicum,payless/images/Green Capsicum.jpg,Fresh Vegetables
+14,Sweet Potato,payless/images/Sweet Potat.jpg,Fresh Vegetables
+15,Ridge Gourd,payless/images/Turai (Ridge Gourd).jpg,Fresh Vegetables
+16,Beetroot,payless/images/Beetroot.jpg,Fresh Vegetables
+17,Amla,payless/images/Amla.jpg,Fresh Vegetables
+18,Coccinia,payless/images/Coccinia.jpg,Fresh Vegetables
+19,Chow Chow,payless/images/Chow Chow.jpg,Fresh Vegetables
+20,Bitter Gourd,payless/images/Bitter Gourd.jpg,Fresh Vegetables
+21,Snake Gourd,payless/images/Snake Gourd.jpg,Fresh Vegetables
+22,Yam,payless/images/Yam.jpg,Fresh Vegetables
+23,Baby Corn,payless/images/Baby Corn.jpg,Fresh Vegetables
+24,Colocasia,payless/images/Colocasia.jpg,Fresh Vegetables
+25,Sambar Onion,payless/images/Sambar Onion.jpg,Fresh Vegetables
+26,Knol Khol,payless/images/Knol Khol.jpg,Fresh Vegetables
+27,Curry Leaves,payless/images/Curry Leaves.jpg,Fresh Vegetables
+28,Tapioca,payless/images/Tapioca.jpg,Fresh Vegetables
+29,Ash Gourd,payless/images/Ash Gourd.jpg,Fresh Vegetables
+30,Banana Flower,payless/images/Banana Flower.jpg,Fresh Vegetables
+31,Sweet Corn Shelled,payless/images/Sweet Corn Shelled.jpg,Fresh Vegetables
+32,Banana Stem,payless/images/Banana Stem.jpg,Fresh Vegetables
+33,Pidi Karunai,payless/images/Pidi Karunai.jpg,Fresh Vegetables
+34,Sprout Mix,payless/images/Sprout Mix.jpg,Fresh Vegetables
+35,Betel Leaf,payless/images/Betel Leaf.jpg,Fresh Vegetables
+36,Sprout,payless/images/Sprout.jpg,Fresh Vegetables
+37,Banana Leaf,payless/images/Banana Leaf.jpg,Fresh Vegetables
+38,Beans,payless/images/Beans.jpg,Fresh Vegetables
+39,Ladies Finger,payless/images/Ladies Finger.jpg,Fresh Vegetables
+40,Carrot,payless/images/Carrot.jpg,Fresh Vegetables
+41,Mushroom,payless/images/Mushroom.jpg,Fresh Vegetables
+42,Mint,payless/images/Mint.jpg,Fresh Vegetables
+43,Green Peas,payless/images/Green Peas.jpg,Fresh Vegetables
+44,Capsicum,payless/images/Capsicum.jpg,Fresh Vegetables
+45,Elephant Foot Yam,payless/images/Elephant Foot Yam.jpg,Fresh Vegetables
+46,Brinjal,payless/images/Brinjal.jpg,Fresh Vegetables
+47,Palak,payless/images/Palak.jpg,Fresh Vegetables
+48,Groundnut,payless/images/Groundnut.jpg,Fresh Vegetables
+49,Coconut Flower,payless/images/Coconut Flower.jpg,Fresh Vegetables
+50,Palmyra Sprout,payless/images/Palmyra Sprout.jpg,Fresh Vegetables
+51,Baby Potato,payless/images/Baby Potato.jpg,Fresh Vegetables
+52,Pumpkin,payless/images/Pumpkin.jpg,Fresh Vegetables
+53,Lettuce,payless/images/Lettuce.jpg,Fresh Vegetables
+54,Turmeric,payless/images/Turmeric.jpg,Fresh Vegetables
+55,Spring Onion,payless/images/Spring Onion.jpg,Fresh Vegetables
+56,Amaranthus,payless/images/Amaranthus.jpg,Fresh Vegetables
+57,Siru Keerai,payless/images/Siru Keerai.jpg,Fresh Vegetables
+58,Gongura,payless/images/Gongura.jpg,Fresh Vegetables
+59,Pak Choi,payless/images/Pak Choi.jpg,Fresh Vegetables
+60,Coriander,payless/images/Coriander.jpg,Fresh Vegetables
+61,Drumstick,payless/images/Drumstick.jpg,Fresh Vegetables
+62,Spinach,payless/images/Spinach.jpg,Fresh Vegetables
+63,Alternanthera,payless/images/Alternanthera.jpg,Fresh Vegetables
+64,Broccoli,payless/images/Broccoli.jpg,Fresh Vegetables
+65,Banana,payless/images/Banana.jpg,Fresh Vegetables
+66,Turnip,payless/images/Turnip.jpg,Fresh Vegetables
+67,Methi,payless/images/Methi.jpg,Fresh Vegetables
+68,Leeks,payless/images/Leeks.jpg,Fresh Vegetables
+69,Toor,payless/images/Toor.jpg,Food Grains & Masalas
+70,Apple,payless/images/Apple.jpg,Fruits
+71,Orange,payless/images/Orange.jpg,Fruits
+72,Grapes,payless/images/Grapes.jpg,Fruits
+73,Watermelon,payless/images/Watermelon.jpg,Fruits
+74,Banana,payless/images/Banana Fruit.jpg,Fruits
+75,Pomegranate,payless/images/Pomegranate.jpg,Fruits
+76,Tender Coconut,payless/images/Tender Coconut.jpg,Fruits
+78,Guava,payless/images/Guava.jpg,Fruits
+79,Sapota,payless/images/Sapota.jpg,Fruits
+80,Kiwi,payless/images/Kiwi.jpg,Fruits
+81,Papaya,payless/images/Papaya.jpg,Fruits
+82,Strawberry,payless/images/Strawberry.jpg,Fruits
+83,Pineapple,payless/images/Pineapple.jpg,Fruits
+84,Pear,payless/images/Pear.jpg,Fruits
+85,Date,payless/images/Date.jpg,Fruits
+86,Fig,payless/images/Fig.jpg,Fruits
+87,Blueberry,payless/images/Blueberry.jpg,Fruits
+88,Dragon Fruit,payless/images/Dragon Fruit.jpg,Fruits
+89,Apricot,payless/images/Apricot.jpg,Fruits
+90,Longan,payless/images/Longan.jpg,Fruits
+91,Avacado,payless/images/Avacado.jpg,Fruits
+92,Musk Melon,payless/images/Musk Melon.jpg,Fruits
+93,Moong,payless/images/Moong.jpg,Food Grains & Masalas
+94,Urad,payless/images/Urad.jpg,Food Grains & Masalas
+95,Peanut,payless/images/Peanut.jpg,Food Grains & Masalas
+96,Kabuli Chana,payless/images/Kabuli Chana.jpg,Food Grains & Masalas
+97,Peas,payless/images/Peas.jpg,Food Grains & Masalas
+98,Soya,payless/images/Soya.jpg,Food Grains & Masalas
+99,Kidney Beans,payless/images/Kidney Beans.jpg,Food Grains & Masalas
+100,Masoor,payless/images/Masoor.jpg,Food Grains & Masalas
+101,Green Peas,payless/images/Green Peas.jpg,Food Grains & Masalas
+102,Millet,payless/images/Millet.jpg,Food Grains & Masalas
+103,Rajma,payless/images/Kidney Beans.jpg,Food Grains & Masalas
+104,Horse Gram,payless/images/Horse Gram.jpg,Food Grains & Masalas
+105,Brown Chana,payless/images/Brown Chana.jpg,Food Grains & Masalas
+106,Popcorn,payless/images/Popcorn.jpg,Food Grains & Masalas
+107,Chana,payless/images/Chana.jpg,Food Grains & Masalas
+108,Flax,payless/images/Flax.jpg,Food Grains & Masalas
+109,Chia,payless/images/Chia.jpg,Food Grains & Masalas
+111,Mee,https://ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B00DRE0LQY&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=whypaymore08-21,Others
+112,Foil,https://ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=IN&ASIN=B08ZCNZPMS&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=whypaymore08-21,Others
+113,Garam Masala,payless/images/no image.jpg,Food Grains & Masalas
+114,Chicken Masala,payless/images/no image.jpg,Food Grains & Masalas
+115,Mutton Masala,payless/images/no image.jpg,Food Grains & Masalas
+116,Chole Masala,payless/images/no image.jpg,Food Grains & Masalas
+117,Biriyani Masala,payless/images/no image.jpg,Food Grains & Masalas
+118,Chaat Masala,payless/images/no image.jpg,Food Grains & Masalas
+119,Tandoori Masala,payless/images/no image.jpg,Food Grains & Masalas
+120,Asafoetida,payless/images/no image.jpg,Food Grains & Masalas
+121,Hing,payless/images/no image.jpg,Food Grains & Masalas
+122,Kabab Masala,payless/images/no image.jpg,Food Grains & Masalas
+123,Chilli Powder,payless/images/no image.jpg,Food Grains & Masalas
+124,Jeera,payless/images/no image.jpg,Food Grains & Masalas
+125,Saffron,payless/images/no image.jpg,Food Grains & Masalas
+126,Pav Bhaji,payless/images/no image.jpg,Food Grains & Masalas
+127,Mustard,payless/images/no image.jpg,Food Grains & Masalas
+128,Fennel,payless/images/no image.jpg,Food Grains & Masalas
+129,Cardamom,payless/images/no image.jpg,Food Grains & Masalas
+130,Coriander Powder,payless/images/no image.jpg,Food Grains & Masalas
+131,Black Pepper Powder,payless/images/no image.jpg,Food Grains & Masalas
+132,Tamarind,payless/images/no image.jpg,Food Grains & Masalas
+133,Ginger Garlic Paste,payless/images/no image.jpg,Food Grains & Masalas
+134,Ajwain,payless/images/no image.jpg,Food Grains & Masalas
+135,Poppy Seeds,payless/images/no image.jpg,Food Grains & Masalas
+136,Fenugreek,payless/images/no image.jpg,Food Grains & Masalas
+137,Turmeric Powder,payless/images/no image.jpg,Food Grains & Masalas
+138,Mustard,payless/images/no image.jpg,Food Grains & Masalas
+139,Sambar Powder,payless/images/no image.jpg,Food Grains & Masalas
+140,Chhole Masala,payless/images/no image.jpg,Food Grains & Masalas
+141,Bark,payless/images/no image.jpg,Food Grains & Masalas
+142,Anise,payless/images/no image.jpg,Food Grains & Masalas
+143,Til,payless/images/no image.jpg,Food Grains & Masalas
