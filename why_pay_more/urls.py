@@ -21,6 +21,7 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
+    path('index', views.home, name='index'),
     path('search', views.search, name='search'),
     path('setcity', views.setcity, name='setcity'),
 ]

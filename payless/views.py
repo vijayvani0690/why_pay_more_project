@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from .models import Product
 from .models import Grocery_Headings
 import logging
+from django.core.paginator import Paginator
 
 
 # Create your views here.
@@ -10,6 +11,7 @@ def home(request):
     logging.info("----Loggin Started----")
     city = "Chennai"
     selected_category = "Fresh Vegetables"
+
     if request.COOKIES is not None :
         if request.COOKIES.get("selected_city", None) != None :
             city = request.COOKIES['selected_city']
@@ -49,7 +51,15 @@ def home(request):
         if len(products) > 0:
             new_product = {'product': products[0], 'name': grocery.name, 'vendors': vendors1, 'image': grocery.image}
             productList.append(new_product)
-    return render(request, 'payless/home.html', {'products': productList, 'selected_city': city, 'selected_category': selected_category})
+        pageNumber = 1
+        if request.GET.get('page') is not None :
+            pageNumber = int(request.GET.get('page'))
+
+        paginator = Paginator(productList, 20)
+        pageList=[]
+        for pageNo in range(pageNumber + 1, min(pageNumber + 4, paginator.num_pages)):
+            pageList.append(pageNo)
+    return render(request, 'payless/home.html', {'products': paginator.page(pageNumber), 'selected_city': city, 'selected_category': selected_category, 'page_list': pageList, 'no_of_pages': paginator.num_pages})
 
 
 def search(request):
@@ -77,7 +87,7 @@ def search(request):
             image1 = {"url": "/media/payless/images/no image.jpg"}
             new_product = {'product': product, 'name': product.product_name, 'vendors': vendors1, 'image': image1}
             productList.append(new_product)
-    return render(request, 'payless/home.html', {'products': productList, 'selected_city': city, 'selected_category': selected_category })
+    return render(request, 'payless/home.html', {'products': productList, 'selected_city': city, 'selected_category': selected_category})
 
 def setcity(request):
 
@@ -117,7 +127,16 @@ def setcity(request):
         if len(products) > 0:
             new_product = {'product': products[0], 'name': grocery.name, 'vendors': vendors1, 'image': grocery.image}
             productList.append(new_product)
-        response = render(request, 'payless/home.html', {'products': productList, 'selected_city': city, 'selected_category': selected_category})
+
+        pageNumber = 1
+        if request.GET.get('page') is not None:
+            pageNumber = int(request.GET.get('page'))
+        paginator = Paginator(productList, 20)
+        pageList = []
+        for pageNo in range(pageNumber + 1, min(pageNumber + 4, paginator.num_pages)):
+            pageList.append(pageNo)
+
+        response = render(request, 'payless/home.html', {'products': paginator.page(pageNumber), 'selected_city': city, 'selected_category': selected_category, 'page_list': pageList, 'no_of_pages': paginator.num_pages})
         if request.GET.get('select_city').strip() != "":
             response.set_cookie('selected_city', request.GET.get('select_city').strip())
         if request.GET.get('select_category').strip() is not None and request.GET.get('select_category').strip() != "":
