@@ -5,10 +5,17 @@ from .models import Grocery_Headings
 import logging
 from django.core.paginator import Paginator
 
-
 # Create your views here.
 def home(request):
-    logging.info("----Loggin Started----")
+    x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+    ip_addr = ''
+    if x_forwarded_for:
+        ip_addr = x_forwarded_for.split(',')[0]
+    else:
+        ip_addr = request.META.get('REMOTE_ADDR')
+    f = open('vistitors.txt', 'a')
+    f.writelines(ip_addr+"\n")
+    f.close()
     city = "Chennai"
     selected_category = "Fresh Vegetables"
 
