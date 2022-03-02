@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-4)$$5f!7q)lv2%waegq^iuut$7-x8yqi^+2f#!+h%$8t4i4h-m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.whypaymore.in']
 
 
 # Application definition
