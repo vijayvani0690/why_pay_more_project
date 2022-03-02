@@ -4,6 +4,7 @@ from .models import Product
 from .models import Grocery_Headings
 import logging
 from django.core.paginator import Paginator
+from datetime import date
 
 # Create your views here.
 def home(request):
@@ -14,7 +15,7 @@ def home(request):
     else:
         ip_addr = request.META.get('REMOTE_ADDR')
     f = open('vistitors.txt', 'a')
-    f.writelines(ip_addr+"\n")
+    f.writelines(ip_addr+ " " + date.today().strftime("%B %d, %Y") + "\n")
     f.close()
     city = "Chennai"
     selected_category = "Fresh Vegetables"
