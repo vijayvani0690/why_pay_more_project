@@ -2,9 +2,10 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Product
 from .models import Grocery_Headings
-import logging
+import logging, traceback
 from django.core.paginator import Paginator
 from datetime import date
+
 
 # Create your views here.
 def home(request):
@@ -19,6 +20,7 @@ def home(request):
     f.close()
     city = "Chennai"
     selected_category = "Fresh Vegetables"
+    print('Heelo User')
 
     if request.COOKIES is not None :
         if request.COOKIES.get("selected_city", None) != None :
@@ -27,6 +29,7 @@ def home(request):
             selected_category = request.COOKIES['selected_category']
     groceries = Grocery_Headings.objects.filter(category__contains=selected_category)
     productList = []
+    print(groceries)
     for grocery in groceries:
         products = Product.objects.filter(city__contains=city).filter(product_name__contains=grocery.name).filter(sub_category_1__contains=selected_category).order_by('price')
         products.group_by = ['online_partner']
@@ -85,6 +88,7 @@ def search(request):
     jio_found = False
     amazon_found = False
     bigbasket_found = False
+    print(products)
     for product in products:
         vendor_item = {'online_partner': product.online_partner, 'price': str(product.price), 'link': product.link}
         vendors1 = [vendor_item]

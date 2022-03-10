@@ -17,6 +17,8 @@ class Product(models.Model):
     online_partner = models.TextField(default='jiomart')
     city = models.TextField(default='Chennai')
     image_url = models.URLField(default='/payless/images/no image.jpg')
+    normalized_name = models.TextField(default='')
+    normalized_category = models.TextField(default='')
 
 class Grocery_Headings(models.Model):
     id = models.TextField(primary_key=True)
