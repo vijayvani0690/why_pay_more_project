@@ -66,7 +66,7 @@ def home(request):
         if request.GET.get('page') is not None :
             pageNumber = int(request.GET.get('page'))
 
-        paginator = Paginator(productList, 20)
+        paginator = Paginator(productList, 40)
         pageList=[]
         for pageNo in range(pageNumber + 1, min(pageNumber + 4, paginator.num_pages)):
             pageList.append(pageNo)
@@ -143,7 +143,7 @@ def setcity(request):
         pageNumber = 1
         if request.GET.get('page') is not None:
             pageNumber = int(request.GET.get('page'))
-        paginator = Paginator(productList, 20)
+        paginator = Paginator(productList, 40)
         pageList = []
         for pageNo in range(pageNumber + 1, min(pageNumber + 4, paginator.num_pages)):
             pageList.append(pageNo)
