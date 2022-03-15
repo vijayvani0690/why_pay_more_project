@@ -25,3 +25,14 @@ class Grocery_Headings(models.Model):
     name = models.TextField(default='Onion')
     image = models.ImageField(upload_to='payless/images/',default='null')
     category = models.TextField(default='Fresh Vegetables')
+
+class Daily_Deals(models.Model):
+    product_name = models.TextField()
+    offer_price = models.DecimalField(decimal_places=2, max_digits=20)
+    original_price = models.DecimalField(decimal_places=2, max_digits=20,blank=True)
+    offer_percentage = models.DecimalField(decimal_places=2, max_digits=20,blank=True)
+    link = models.URLField(blank=True)
+    image_url = models.URLField(default='/payless/images/no image.jpg')
+    online_partner = models.TextField(default='jiomart')
+    unit = models.TextField(default="Kg")
+    quantity = models.DecimalField(default=1, decimal_places=2, max_digits=20)
